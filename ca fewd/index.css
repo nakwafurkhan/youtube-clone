@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202020;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+    width: 300px;
+}
+
+.user-menu button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.recommendation{
+    border: 2px solid red;
+    height: 15px;
+    width: 100vw;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #303030;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.set{
+    display: flex;
+}
+
+.set img{
+    margin: 10px;
+}
+
+.navBar {
+    display: flex;
+    margin-left: -150px ;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.navBar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+
+    padding-top: 60px; /* to make it go down */
+    flex-grow: 1;
+    background-color: #181818;
+    padding: 20px;
+    position: static;
+}
+
+.video-grid{
+
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column  ;
+    margin-left: 200px;
+    
+    
+}
+
+.grid1 {
+    display: flex;
+   
+
+}
+
+.grid1 img{
+    
+    margin: 30px;
+    
+    
+}
+.grid2 {
+    display: flex;
+   
+
+}
+
+.grid2 img{
+    
+    margin: 30px;
+    
+    
+}
+.grid3 {
+    display: flex;
+   
+
+}
+
+.grid3 img{
+    
+    margin: 30px;
+    
+    
+}
